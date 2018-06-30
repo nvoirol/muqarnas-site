@@ -1,21 +1,35 @@
 {
-  "name": "react-routing-basic-example",
+  "name": "muqarna_website",
   "version": "1.0.0",
   "description": "",
-  "main": "public/index.html",
+  "main": "server.js",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^6.4.1",
+    "babel-preset-react": "^6.24.1",
+    "express": "^4.16.3",
+    "install": "^0.12.1",
+    "npm": "^6.1.0",
+    "react-scripts": "^1.1.4",
+    "react-dom": "^0.14.9",
+    "react": "^0.14.9",
+    "save-dev": "^2.0.0",
+    "webpack": "^4.12.2"
+  },
+  "devDependencies": {},
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "dependencies": {
-    "express": "^4.14.0",
-    "react": "^0.14.8",
-    "react-dom": "^0.14.8",
-    "react-router": "^2.8.1"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nvoirol/muqarnas-site.git"
   },
-  "devDependencies": {
-    "babel-core": "^6.3.13",
-    "babel-loader": "^6.2.0",
-    "babel-preset-es2015": "^6.3.13",
-    "babel-preset-react": "^6.3.13"
-  }
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nvoirol/muqarnas-site/issues"
+  },
+  "homepage": "https://github.com/nvoirol/muqarnas-site#readme"
 }
